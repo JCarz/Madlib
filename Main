@@ -1,0 +1,105 @@
+/**
+* This program runs a simple mad lip game 
+* for the user to fill in the assigned words
+* @author Jaylen Carroll
+* @version 1.0
+* @since 2019-10-02 CST8110 Introduction to Programming
+*/
+import java.util.Scanner;
+public class MadLib {
+
+	public static void main(String[] args) {
+	String colourcarr0577;
+	String nouncarr0577;
+	String foodcarr0577;
+	String adjcarr0577;
+	String adj2carr0577;
+	int xcarr0577;
+	String noun2carr0577;
+	String verbcarr0577;
+	String verb2carr0577;
+	String noun3carr0577;
+	// These are the Strings that the user will input to fill in the rest of the mad lib
+	System.out.println("Welcome to Jaylen's Mad Lib game! Have fun and enjoy!");
+	Scanner Input = new Scanner(System.in);
+	
+	System.out.print("Please enter a colour: ");
+	colourcarr0577 = Input.next();
+	//The user inputs there colour of their choice
+	System.out.print("Please enter a noun: ");
+	nouncarr0577 = Input.next();
+	
+	System.out.print("Please enter food: ");
+	foodcarr0577 = Input.next();
+	
+	System.out.print("Please enter a adjective: ");
+	adjcarr0577 = Input.next();
+	
+	System.out.print("Please enter a second adjective: ");
+	adj2carr0577 = Input.next();
+	
+	System.out.print("Please enter a number of your choice: ");
+	xcarr0577 = Input.nextInt();
+	
+	System.out.print("Please enter a second noun: ");
+	noun2carr0577 = Input.next();
+	
+	System.out.print("Please enter a verb: ");
+	verbcarr0577 = Input.next();
+	
+	System.out.print("Please enter a second verb: ");
+	verb2carr0577 = Input.next();
+	
+	System.out.print("Please enter your final word it must be a noun: ");
+	noun3carr0577 = Input.next();
+	System.out.println("1)Select the type of bread you want to use. Many prefer the taste of "+colourcarr0577+" bread, while others prefer " +nouncarr0577+ " bread because it is healthy."
++ "\n2)Choose the flavor of Jam/Jelly. I personally prefer " +foodcarr0577+ " jam, "
++ "but you can use whatever you want."
++ "\n3)Choose the type of penut butter - either " +adjcarr0577+ " or " +adj2carr0577+" ."
++ "\n4)Take out " +xcarr0577+ " slice(s) of bread. "
++ "\n5)Use a "+noun2carr0577+ " to "+verbcarr0577+ " the jam all over on of the pieces of bread."
++ "\n6)Now " +verb2carr0577+ " the penut butter on the other piece of bread."
++ "\n7)Put them together, and you have a PB&J " +noun3carr0577+".");
+
+	System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+	System.out.println("This is the bonus part of the MadLib enjoy!!!");
+	String namecarr0577;
+	String Nadjcarr0577;
+	String Adverbcarr0577;
+	String nFoodcarr0577;
+	String nVerbcarr0577;
+	String nAdjcarr0577;
+	String nNouncarr0577;
+	String neVerbcarr0577;
+	int ycarr0577;
+	//all my variables 
+	System.out.print("Please enter a name: ");
+	namecarr0577 = Input.next();
+	System.out.print("Please enter a new adjective: ");
+	Nadjcarr0577 = Input.next();
+	System.out.print("Please enter a adverb: ");
+	Adverbcarr0577 = Input.next();
+	System.out.print("Please enter food: ");
+	nFoodcarr0577 = Input.next();
+	System.out.print("Please enter a verb: ");
+	nVerbcarr0577 = Input.next();
+	System.out.print("Please enter a adjective:");
+	nAdjcarr0577 = Input.next();
+	System.out.print("Please enter a noun: ");
+	nNouncarr0577 = Input.next();
+	System.out.print("Please enter a verb: ");
+	neVerbcarr0577 =Input.next();
+	System.out.print("Please enter a number: ");
+	ycarr0577 =Input.nextInt();
+	// all my Scanner inputs 
+	System.out.println(
+"1)There once was a boy "+namecarr0577+ " that lived with his " + Nadjcarr0577+ " mother.\n" + 
+"2)They went very " +Adverbcarr0577+ " get some " +nFoodcarr0577+ " at the local market.\r\n" + 
+"3)When they arrived by " +nVerbcarr0577+" , they where greeted by a "+nAdjcarr0577+ " old man that told them"
++ " to meet him underneath a "+nNouncarr0577+"." +
+"\n4)They " +neVerbcarr0577+ " their way to " +nNouncarr0577+ " and realized the "+nAdjcarr0577+ 
+" old man was not there, they waited "+ycarr0577+" minuites until the "+nAdjcarr0577+" old man gave them the \r\n" + 
+""+nFoodcarr0577+ " they forgot at the market.");
+System.out.println("Thank you for playing!!");
+	}// end of main
+}//end of class
